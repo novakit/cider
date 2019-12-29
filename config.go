@@ -9,9 +9,6 @@ type Config struct {
 		// 默认使用随机端口号
 		// 会以 'CIDER_SERVICE_PORT' 环境变量提供给被托管应用
 		Port int
-		// Log 日志配置
-		Log struct {
-		}
 	}
 	// Inlet Cider 对外提供服务的配置
 	Inlet struct {
